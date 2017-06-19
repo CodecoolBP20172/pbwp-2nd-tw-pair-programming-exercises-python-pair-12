@@ -1,9 +1,13 @@
 def palindrome(str):
-    return
+    str = "".join(str.split())
+    if str.lower() == str.lower()[::-1]:
+        return True
+    else:
+        return False
 
 
 def main():
-    return
+    print(palindrome("A nut for a jar of tuna"))
 
 
 if __name__ == '__main__':
